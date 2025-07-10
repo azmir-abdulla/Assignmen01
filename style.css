@@ -1,11 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 /* Universal classes */
+body{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
 
 .container{
     max-width: 1140px;
     margin: 0 auto;
 
 }
+a{
+text-decoration: none;
+ color: white;
+}
 .btn-primary{
-
+ background-color: #4E47FF;
+ border: none;
+ padding: 12px 36px;
+ border-radius: 10px;
+ font-size: 16px;
+ font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+nav .logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #4E47FF;
+    font-family: inter;
 }
