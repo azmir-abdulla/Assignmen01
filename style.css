@@ -149,3 +149,32 @@ header{
 .identity .name{
     font-weight: 600;
 }
+
+/* middle part */
+
+.middle{
+    text-align: center;
+    padding: 71px 150px;
+    background-color: white;
+    border-radius: 14px;
+}
+.middle h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+.middle p{
+     color:rgb(0 0 0 / 51%);
+     margin-top: 24px;
+     margin-bottom: 24px;
+}
+   
+.middle button{
+    margin-bottom: 24px;
+}
+
+.middle img{
+    width: 840px;
+    height: 360px;
+    border-radius: 48px;
+}
