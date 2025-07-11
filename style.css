@@ -178,3 +178,54 @@ header{
     height: 360px;
     border-radius: 48px;
 }
+
+/* contact section */
+.contact{
+    display: flex;
+    gap: 155px;
+    align-items: center;
+    padding: 70px 0;
+    margin-top: 70px;
+     margin-bottom: 70px;
+}
+.contact .form-left h1{
+font-size: 90px;
+font-weight: bold;
+}
+.form-right form input {
+    display: block;
+    padding: 20px 32px;
+    width: 497px;
+    font-size: 20px;
+    font-family: inter;
+    color:rgb(0 0 0 / 51%);
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 51%);;
+    margin-bottom: 19px;
+    margin-top: 15px;
+
+}
+.form-right form textarea{
+     padding: 20px 32px;
+    width: 497px;
+    font-size: 20px;
+    font-family: inter;
+    color:rgb(0 0 0 / 51%);
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 51%);;
+    margin-bottom: 19px;
+    margin-top: 15px;}
+
+.form-right form label{
+    font-size: 18px;
+    font-family: inter;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.form-right form button{
+    padding: 20px 32px;
+    width: 563px;
+}
+.form-right form button:hover{
+    padding: 20px 32px;
+}
