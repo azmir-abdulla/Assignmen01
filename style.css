@@ -229,3 +229,39 @@ font-weight: bold;
 .form-right form button:hover{
     padding: 20px 32px;
 }
+
+/* footer design */
+footer{
+    text-align: center;
+    background-color: white;
+}
+.footer-main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 140px 0;
+}
+.footer{
+    text-align: center;
+    width: 450px;
+}
+.footer p{
+     color:rgb(0 0 0 / 51%);
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.footer ul li a{
+     color:rgb(0 0 0 / 51%);
+   
+}
+.footer h1{
+ font-size: 100px;
+ color: #4E47FF;
+ font-family: inter;
+ margin: 0;
+}
